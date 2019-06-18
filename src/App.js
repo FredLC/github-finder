@@ -1,11 +1,14 @@
 import React from "react";
+import Navbar from "./components/layout/Navbar";
+import UserItem from "./components/users/UserItem";
 import "./App.css";
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello From the Under Side</h1>
+        <Navbar />
+        <UserItem />
       </div>
     );
   }
