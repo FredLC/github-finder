@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import UserItem from "./UserItem";
 import Spinner from "../layout/Spinner";
@@ -24,7 +24,7 @@ const displayStyle = {
 };
 
 Users.propTypes = {
-  users: PropTypes.object.isRequired,
+  users: PropTypes.array.isRequired,
   loading: PropTypes.bool.isRequired
 };
 
