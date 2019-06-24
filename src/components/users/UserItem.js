@@ -5,7 +5,7 @@ const UserItem = ({ user: { login, avatarUrl, htmlUrl } }) => {
   return (
     <div className="card text-center">
       <img
-        src={avatarUrl}
+        src="https://avatars0.githubusercontent.com/u/1?v=4"
         alt=""
         className="round-img"
         style={{ width: "60px" }}
